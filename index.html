@@ -7,7 +7,19 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <button id="reset-btn">Set Grid Size</button>
+    <h1>Etch-a-Sketch</h1>
+    <div class="mode-container">
+        <button id="black-mode-btn">Black</button>
+        <button id="rainbow-mode-btn">Rainbow</button>
+        <input type="color" id="color-picker" value="#000000" title="Pick a color">
+      </div>
+      
+    <div class="button-container">
+        <button id="reset-btn">Reset</button>
+        <button id="draw-btn">Draw</button>
+    <button id="erase-btn">Erase</button>
+    </div>
+
     <div id="container"></div>
     <script src="script.js"></script>
 </body>
